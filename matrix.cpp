@@ -36,7 +36,7 @@ int main()
     }
 
     // 144 FPS PC master race
-    std::this_thread::sleep_for(std::chrono::milliseconds(7));
+    std::this_thread::sleep_for(std::chrono::milliseconds(1000 / 144));
   }
 
   return 0;
