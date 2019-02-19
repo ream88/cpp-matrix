@@ -11,8 +11,6 @@ int main()
 
   while (true)
   {
-    cout << "\033[1;31m█\033[0m\n";
-
     cout << "\033c";
 
     int x = rand() % 8;
